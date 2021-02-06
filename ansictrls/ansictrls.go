@@ -3,7 +3,7 @@ package ansictrls
 import "fmt"
 
 const (
-	PackageVersion = "0.0.1"
+	PackageVersion = "0.1.0"
 )
 
 type EraseMode uint
