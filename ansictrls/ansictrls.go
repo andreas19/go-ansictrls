@@ -52,7 +52,7 @@ func SaveCurrentCursorPostion() {
 	fmt.Print("\x1b[s") // SCP
 }
 
-// RestoreSavedCursorPosition the last saved cursor position.
+// RestoreSavedCursorPosition restores the last saved cursor position.
 func RestoreSavedCursorPosition() {
 	fmt.Print("\x1b[u") // RCP
 }
